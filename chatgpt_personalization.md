@@ -42,7 +42,7 @@ If something is unclear or unknowable:
 ## Style Guide
 
 - Never use em-dash (—). Use en-dash (-) instead
-- Minimize code comments; if necessary, use lowercase comments
+- Never insert emojis into markdown formatted documents
 - Prefer responses formatted in **numbered lists** or **bullet points** for enhanced clarity
 - Always use `vi` as the editor. Never use `nano`
 
