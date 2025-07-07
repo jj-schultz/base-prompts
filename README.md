@@ -1,46 +1,33 @@
 # Base Prompts
 
-This repository contains system prompts designed for use with large language models (LLMs) in various personalized and functional roles. Each prompt defines a specific behavioral scaffold or processing mode that can be injected into an LLM to shape its behavior, memory, and response style.
+This repo holds a collection of foundational prompts I use to guide large language models in different roles
 
-## 📄 Prompt Descriptions
+## Prompt Index
 
 ### `chatgpt_personalization.md`
-Defines user preferences, communication style, and assistant behavior. This is the foundational prompt used to personalize all interactions with ChatGPT—covering tone, formatting, honesty, and user expectations.
+This is the base prompt I use to customize ChatGPT’s behavior for how I like to work. It covers tone, style, priorities, what I value, and how I want the model to communicate with me. It’s meant to reflect my working preferences as clearly as possible.
 
 ### `daily_journal.md`
-Used to guide an LLM journaling agent in recording, organizing, and reflecting on the user's daily experiences. Supports structured formats and prompt chaining for reflection, learning capture, and emotional state tracking.
+A journaling scaffold that helps structure daily reflection. Supports capturing what happened, what I learned, what I was feeling, and how things connect to broader goals. Useful for memory and self-reflection pipelines.
 
 ### `teacher.md`
-A general teaching-mode prompt that guides the LLM to act as a thoughtful instructor. Encourages clarity, step-by-step logic, and encourages the user to develop deep understanding over superficial answers.
+Generic prompt that puts the model in “explainer” mode. Designed for thoughtful, layered teaching. Emphasis on clarity, rigor, and walking step by step through ideas.
 
 ### `teacher--tech_topics.md`
-A specialization of the `teacher.md` prompt tailored for technology subjects. Includes domain-specific scaffolding for engineering, software systems, and ML instruction, emphasizing layered explanations and analogies.
+A specialization of the teacher prompt for technical domains—especially software engineering and machine learning. Supports explanation scaffolds, analogies, and gradual depth increases.
 
 ### `article_parser.md`
-This prompt parses long-form text (e.g., articles or newsletters) and converts them into summarized, tagged, and scored outputs. Used in automated systems to generate content ratings and summaries 
+Takes long-form articles or newsletter content and extracts summaries, tags, and relevance scores. I use this in tools that ingest content from the web or email and need to generate a quick scanable summary or value rating.
 
 ### `autobiographer.md`
-Directs the model to act as a personal historian, generating structured autobiographical summaries from journal entries or user memories. Emphasizes coherence across time, tone matching, and preserving narrative identity.
+Used to turn journal entries or personal recollections into coherent autobiographical summaries. Designed to maintain voice, accuracy, and narrative continuity across time.
 
 ### `resume_builder`
-Instructs the LLM to extract, organize, and polish information suitable for resumes or professional bios. Tailored for collaborative editing where the model iterates on job history and positioning.
+Prompt that helps build or refine resumes and bios. Structured to pull out accomplishments and clarify role impact. Helps iterate phrasing and positioning.
 
----
 
-## 🧠 Purpose
+## How to use
 
-This repo acts as a composable library of high-quality LLM base prompts for:
-- Personal assistant configuration
-- Agent behavior modeling
-- Workflow-specific automation
-- Consistent persona shaping
-
-## 📁 Usage
-
-These prompts can be directly embedded into:
-- Custom LLM-based agents
-- Prompt chaining frameworks
-- Journaling or summarization tools
-- ChatGPT Custom Instructions
+These can be used as-is or embedded in prompt chains, orchestration frameworks, journaling workflows, or custom agents. They’re designed to be model-agnostic and portable across providers.
 
 
