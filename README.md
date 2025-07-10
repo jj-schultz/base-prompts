@@ -14,20 +14,14 @@ A journaling scaffold that helps structure daily reflection. Supports capturing 
 Generic prompt that puts the model in “explainer” mode. Designed for thoughtful, layered teaching. Emphasis on clarity, rigor, and walking step by step through ideas.
 
 ### `teacher--tech_topics.md`
+** Great with Voice Mode **
 A specialization of the teacher prompt for technical domains—especially software engineering and machine learning. Supports explanation scaffolds, analogies, and gradual depth increases.
 
 ### `article_parser.md`
 Takes long-form articles or newsletter content and extracts summaries, tags, and relevance scores. I use this in tools that ingest content from the web or email and need to generate a quick scanable summary or value rating.
 
 ### `autobiographer.md`
+** Great with Voice Mode **
 Used to turn journal entries or personal recollections into coherent autobiographical summaries. Designed to maintain voice, accuracy, and narrative continuity across time.
-
-### `resume_builder`
-Prompt that helps build or refine resumes and bios. Structured to pull out accomplishments and clarify role impact. Helps iterate phrasing and positioning.
-
-
-## How to use
-
-These can be used as-is or embedded in prompt chains, orchestration frameworks, journaling workflows, or custom agents. They’re designed to be model-agnostic and portable across providers.
 
 
