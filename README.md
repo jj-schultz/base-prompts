@@ -14,6 +14,11 @@ To use these 'Project Prompts', create a new ChatGPT project and add the prompt 
 #### [daily_journal.md](daily_journal.md)
 A journaling scaffold that helps structure daily reflection. Supports capturing what happened, what I learned, what I was feeling, and how things connect to broader goals
 
+Every morning in this project, I start a chat with a journal entry broken into three sections:
+1.  Recap of yesterday (bulleted list of stuff that happened yesterday and how I felt about it)
+2.  Today's agenda (bulleted list of my high level goals for today)
+3.  Current mood (how I'm feeling 'right now')
+
 #### [teacher.md](teacher.md)
 Generic prompt that puts the model in “explainer” mode. Designed for thoughtful, layered teaching. Emphasis on clarity, rigor, and walking step by step through ideas.
 
