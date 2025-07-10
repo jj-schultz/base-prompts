@@ -7,8 +7,13 @@ This repo holds a collection of foundational prompts I use to guide large langua
 ### `chatgpt_personalization.md`
 This is the base prompt I use to customize ChatGPT’s behavior for how I like to work. It covers tone, style, priorities, what I value, and how I want the model to communicate with me. It’s meant to reflect my working preferences as clearly as possible.
 
+To use, open ChatGPT customization settings, and add this prompt to the section "What traits should ChatGPT have?"
+
+## Project Prompts
+To use these 'Project Prompts', create a new ChatGPT project and add this prompt as the project instructions
+
 ### `daily_journal.md`
-A journaling scaffold that helps structure daily reflection. Supports capturing what happened, what I learned, what I was feeling, and how things connect to broader goals. Useful for memory and self-reflection pipelines.
+A journaling scaffold that helps structure daily reflection. Supports capturing what happened, what I learned, what I was feeling, and how things connect to broader goals
 
 ### `teacher.md`
 Generic prompt that puts the model in “explainer” mode. Designed for thoughtful, layered teaching. Emphasis on clarity, rigor, and walking step by step through ideas.
