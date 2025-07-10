@@ -22,9 +22,13 @@ Every morning in this project, I start a chat with a journal entry broken into t
 #### [teacher.md](teacher.md)
 Generic prompt that puts the model in “explainer” mode. Designed for thoughtful, layered teaching. Emphasis on clarity, rigor, and walking step by step through ideas.
 
+To use, just start a chat with a document or an url, and then let the learning begin!
+
 #### [teacher--tech_topics.md](teacher--tech_topics.md)
 **Works great with ChatGPT's Voice Mode (fun to use while driving)**
 A specialization of the teacher prompt for technical domains—especially software engineering and machine learning. Supports explanation scaffolds, analogies, and gradual depth increases.
+
+When I use this one, I'll open Voice Mode for this project while driving, and I'll just start asking questions about a topic I'm interested in
 
 #### [article_parser.md](article_parser.md)
 Takes long-form articles or newsletter content and extracts summaries, tags, and relevance scores. I use this in tools that ingest content from the web or email and need to generate a quick scanable summary or value rating.
