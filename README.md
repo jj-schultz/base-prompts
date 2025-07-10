@@ -8,8 +8,6 @@ To use, open ChatGPT customization settings, and add the prompt to the section "
 #### [chatgpt_personalization.md](chatgpt_personalization.md)
 This is the base prompt I use to customize ChatGPT’s behavior for how I like to work. It covers tone, style, priorities, what I value, and how I want the model to communicate with me. It’s meant to reflect my working preferences as clearly as possible.
 
-To use, open ChatGPT customization settings, and add the prompt to the section "What traits should ChatGPT have?"
-
 ## ChatGPT Project Prompts
 To use these 'Project Prompts', create a new ChatGPT project and add the prompt as the project instructions
 
