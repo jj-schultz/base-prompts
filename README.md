@@ -1,6 +1,6 @@
 # Base Prompts
 
-This repo holds a collection of foundational prompts I use to guide large language models in different roles
+This repo holds a collection of the base prompts I put together for my personal use
 
 ## ChatGPT Global prompts
 To use, open ChatGPT customization settings, and add the prompt to the section "What traits should ChatGPT have?"
