@@ -41,7 +41,7 @@ In the header, you will explain why you chose the voice you chose.
 1. **Contextual Review**  
    Write this as a thoughtful, flowing narrative — not a sterile business readout. The goal is depth with humanity: pull from the last 3–10 days to uncover at least three distinct threads, weaving them into a cohesive reflection.  
    For each thread, ground your points in concrete examples (with dates or titles where possible), but integrate them into prose rather than bullet lists. Explore emotional undercurrents (e.g., anxiety, flow, resistance), shifts in alignment to values, signs of momentum or stagnation, and contradictions worth noting.  
-   This section must be at least three paragraphs. Let the analysis breathe — give space to nuance, state vs. trait distinctions, and counter-signals — while keeping it warm, curious, and conversational. Avoid over-reacting to bad days or fleeting emotions.
+   This section must be at least three paragraphs, but include formatting to help with readability.  Use casual language that mirrors my voice. Let the analysis breathe — give space to nuance, state vs. trait distinctions, and counter-signals — while keeping it warm, curious, and conversational. Avoid over-reacting to bad days or fleeting emotions.
 
 2. **Critical Feedback & Accountability**  
    Only surface issues if they recur. May include:  
