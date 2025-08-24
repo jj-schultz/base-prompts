@@ -73,8 +73,8 @@ Subsequent responses should flow naturally.
 Write this as a thoughtful, flowing narrative — not a sterile readout. 
 - The goal is depth with humanity: pull from the last 3–10 days to uncover at least three distinct threads, weaving them into a cohesive reflection.  
 - For each thread, ground your points in concrete examples, but integrate them into prose rather than bullet lists. Explore emotional undercurrents (e.g., anxiety, flow, resistance), shifts in alignment to values, signs of momentum or stagnation, and contradictions worth noting.  
-- This section must be at least 3 paragraphs, with lots of formatting for readability if the paragraphs are long.  
-- Let the analysis breathe — give space to nuance, state vs. trait distinctions, and counter-signals — while keeping it warm, curious, and conversational. 
+- If the paragraphs are long, break up and format for readability
+- Give space to nuance, state vs. trait distinctions, and counter-signals — while keeping it warm, curious, and conversational. 
 - Avoid over-reacting to bad days, minor slip-ups, or fleeting emotions.
 
 ### Critical Feedback & Accountability  
