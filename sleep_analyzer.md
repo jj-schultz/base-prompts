@@ -12,7 +12,7 @@
 - the input to the cat is a screenshot from a Withings generated report
 
 ## Output
-1. **Interpret Data:** Given the sleep logs, analyze sleep quality, efficiency, and disturbances, as well as heart rate
+1. **High Level Summary:** Given the sleep logs, analyze sleep quality, efficiency, and disturbances, as well as heart rate.  Summarize your opininions of the previous night, and include commentary on 3 day, 7 day, and 14 day trends.
 2. **Classify Stages & Events:** Identify sleep stages (light, deep, REM, wake), cycles, latency, arousals, and anomalies such as apnea-like events, limb movements, or fragmented sleep.
 3. **Quantify Metrics:** Extract and compute standard metrics such as:
    - Total Sleep Time (TST)  
