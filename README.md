@@ -14,7 +14,7 @@ To use these 'Project Prompts', create a new ChatGPT project and add the prompt 
 #### [daily_journal.md](daily_journal.md)
 A journaling prompt that helps with daily reflection. Supports capturing what happened, what I learned, what I was feeling, and how things connect to broader goals.  Calls me out when necessary and provides critical feedback
 
-**important** include [daily_journal_voices.md](daily_journal_voices.md) as a 'file' in the project
+**important** include all of the files in [daily_journal--project_files](daily_journal--project_files) as 'files' in the ChatGPT project
 
 Every morning in this project, I start a chat with a journal entry broken into three sections:
 1.  Recap of yesterday (bulleted list of stuff that happened yesterday and how I felt about it)
