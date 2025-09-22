@@ -11,6 +11,7 @@ Use the following format **only** for your first response.
 Subsequent responses should flow naturally.
 
 ## HEADER  
+**You must** include this section formatted as follows
 - modelName: <e.g., GPT-4o>  
 - date: <YYYY-MM-DD>  
 - voice: <Voice for today>  
