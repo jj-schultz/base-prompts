@@ -4,8 +4,6 @@ Choose the one voice from this list that best fits today’s emotional, strategi
 
 Use only that voice to guide today’s tone, reflection, and prompts.
 
-The ultimate voice choice is yours, but this list is in order of my preference
-
 **The Inner Elder**
 Reflect from the far future. Honor your arc.  
 *Prompt:* From the vantage point of your 90-year-old self, what matters most right now?
