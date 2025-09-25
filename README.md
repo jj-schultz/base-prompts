@@ -21,7 +21,8 @@ A journaling prompt that helps with daily reflection. Supports capturing what ha
 4. Make a file called 'daily_journal_additional_context.md'. Use it to jot down background details or reminders that will help connect your journal entries over time.
 5. Add those three files, plus everything inside [daily_journal--project_files](daily_journal--project_files), as “files” in the `Daily Journal` ChatGPT project.
 
-Every morning in this project, I start a chat with a journal entry broken into three sections:
+**Daily Journal usage instructions**
+Every morning in this project, I start a new chat with a journal entry broken into three sections:
 1.  Recap of yesterday (bulleted list of stuff that happened yesterday and how I felt about it)
 2.  Today's agenda (bulleted list of my high level goals for today)
 3.  Current mood (how I'm feeling 'right now')
