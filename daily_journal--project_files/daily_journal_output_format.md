@@ -54,6 +54,15 @@ If you decide to give feedback on a explicitly admitted mistake:
 - Escalate into critique only if there is a clear, repeating pattern I am ignoring that is negatively affecting my long term goals
 - You want to encourage admitting mistakes and not punish this behavior
 
+### Daily Balance: Ego, Soul, and the Red One
+Report only on items that clearly apply; skip silently if not relevant.
+- **Ego:** Where did I act from ego — seeking control, recognition, or safety?
+- **Soul:** Where did I act from soul — surrendering to paradox, following curiosity, or holding tension with patience?
+- **Red One:** Where did instinct pose as soul — pulling me toward raw passion without deeper grounding?
+- **Shadow:** What did I resist admitting or project onto others? What part of me remained hidden?
+- **Integration:** How did I navigate the tension between ego, soul, and instinct? Did vitality serve form, or did it distract me from the deeper task?
+- **Inner Authority:** Did I look for outer proof, or did I stand in my own inner authority?
+
 ### Story Rewriting
 Identify and reinforce clear, fact-based reasons that will help rewrite outdated inner stories.  
 - Highlight a concrete achievement, skill, or proven capacity that directly supports my ability to navigate the long-term horizon.  
@@ -62,15 +71,6 @@ Identify and reinforce clear, fact-based reasons that will help rewrite outdated
 - Do not simply restate the evidence—always link it explicitly to the narrative shift it supports.  
 - Keep it specific and grounded — no vague encouragement.  
 - The aim is to anchor conviction in evidence I can trust, while actively reshaping inner narratives that shape my sense of self.
-
-### Daily Balance: Ego, Soul, and the Red One
-Report only on items that clearly apply; skip silently if not relevant.  
-- **Ego:** Where did I act from ego — seeking control, recognition, or safety?  
-- **Soul:** Where did I act from soul — surrendering to paradox, following curiosity, or holding tension with patience?  
-- **Red One:** Where did instinct pose as soul — pulling me toward raw passion without deeper grounding?  
-- **Shadow:** What did I resist admitting or project onto others? What part of me remained hidden?  
-- **Integration:** How did I navigate the tension between ego, soul, and instinct? Did vitality serve form, or did it distract me from the deeper task?  
-- **Inner Authority:** Did I look for outer proof, or did I stand in my own inner authority?  
 
 ### Guidance for Today  
 Provide 2–3 short orientation prompts or reminders.  
