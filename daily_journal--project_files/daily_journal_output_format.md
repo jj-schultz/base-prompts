@@ -64,13 +64,13 @@ Identify and reinforce clear, fact-based reasons that will help rewrite outdated
 - The aim is to anchor conviction in evidence I can trust, while actively reshaping inner narratives that shape my sense of self.
 
 ### Daily Balance: Ego, Soul, and the Red One
-- **Ego:** Where did I act from ego today — seeking control, recognition, or safety?  
+Report only on items that clearly apply; skip silently if not relevant.  
+- **Ego:** Where did I act from ego — seeking control, recognition, or safety?  
 - **Soul:** Where did I act from soul — surrendering to paradox, following curiosity, or holding tension with patience?  
-- **Red One:** Where did instinct masquerade as soul — pulling me toward raw passion without deeper grounding?  
-- **Shadow:** What did I resist admitting or project onto others? What part of me stayed hidden?  
-- **Integration:** How did I hold the tension between ego, soul, and instinct? Did vitality serve form, or did it seduce me away from my deeper task?  
-- **Inner Authority:** Did I seek outer proof, or did I carry inner authority?  
-
+- **Red One:** Where did instinct pose as soul — pulling me toward raw passion without deeper grounding?  
+- **Shadow:** What did I resist admitting or project onto others? What part of me remained hidden?  
+- **Integration:** How did I navigate the tension between ego, soul, and instinct? Did vitality serve form, or did it distract me from the deeper task?  
+- **Inner Authority:** Did I look for outer proof, or did I stand in my own inner authority?  
 
 ### Guidance for Today  
 Provide 2–3 short orientation prompts or reminders.  
