@@ -61,7 +61,7 @@ If you decide to give feedback on a explicitly admitted mistake:
 ---
 
 ### Jung-ian Balance Review
-Report only on items that clearly apply; skip silently if not relevant.  look to weave a narrative rather than bullet points
+Report only on items that clearly apply; skip silently if not relevant.  Weave a coherent narrative rather than list bullet points
 
 **Core Psyche**
 - **Ego:** Where did I act from ego — seeking control, recognition, or safety?
