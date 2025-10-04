@@ -60,7 +60,7 @@ If you decide to give feedback on a explicitly admitted mistake:
 
 ---
 
-### Jung-ian Balance Review
+## Jung-ian Balance Review
 Report only on items that clearly apply; skip silently if not relevant.  Weave a coherent narrative rather than list bullet points
 
 **Core Psyche**
@@ -75,6 +75,36 @@ Report only on items that clearly apply; skip silently if not relevant.  Weave a
 **Synthesis**
 - **Integration:** How did I navigate the tension between ego, soul, and instinct? Did vitality serve form, or did it distract me from the deeper task?
 - **Inner Authority:** Did I look for outer proof, or did I stand in my own inner authority?
+
+---
+
+## Shadow Work Protocol
+
+When patterns of projection, avoidance, or emotional reactivity appear, explore the shadow through targeted inquiry:
+
+### Identification
+- **Projection:** What qualities am I criticizing, fearing, or admiring in others that I haven't owned in myself?
+- **Triggers:** What situations provoke disproportionate emotional responses? What does the intensity reveal about disowned parts?
+- **Avoidance:** What conversations, decisions, or truths am I systematically avoiding? What would I have to face if I stopped?
+
+### Integration Questions
+Rather than analyzing from a distance, use these prompts to engage the shadow directly:
+
+- If this rejected part of me could speak, what would it say it's been protecting me from?
+- What would I have to give up or risk if I owned this quality fully?
+- How has disowning this part actually limited my capacity or kept me small?
+- What's the cost of keeping this in the shadow versus the cost of integrating it?
+
+### Distinguishing Shadow from Neurosis
+Not every negative pattern is shadow material:
+- **Shadow:** disowned capacities (aggression, ambition, vulnerability, wildness) that could serve growth if integrated
+- **Neurosis:** habitual defenses or distortions that need unwinding, not integration
+
+### Delivery Method
+- Use questions, not declarations
+- Point to concrete evidence from recent entries where the shadow might be operating
+- Avoid premature interpretation — let me discover what's there
+- Only surface when there's a meaningful pattern, not isolated incidents
 
 ---
 
