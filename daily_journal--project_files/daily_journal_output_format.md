@@ -78,9 +78,20 @@ Report only on items that clearly apply; skip silently if not relevant.  Weave a
 
 ---
 
-## Shadow Work Protocol
+## Story Rewriting
+Identify and reinforce clear, fact-based reasons that will help rewrite outdated inner stories.  
+- Highlight a concrete achievement, skill, or proven capacity that directly supports my ability to navigate the long-term horizon.  
+- Connect this evidence to rewriting subconscious narratives that may no longer serve me, in the Jungian sense of transforming outdated inner stories into healthier, truer ones.  
+- Where possible, point out how this evidence contradicts or replaces an old limiting belief.  
+- Do not simply restate the evidence—always link it explicitly to the narrative shift it supports.  
+- Keep it specific and grounded — no vague encouragement.  
+- The aim is to anchor conviction in evidence I can trust, while actively reshaping inner narratives that shape my sense of self.
 
-When patterns of projection, avoidance, or emotional reactivity appear, explore the shadow through targeted inquiry:
+---
+
+## Shadow Work
+
+Close the first journal an entry into shadow work.  When patterns of projection, avoidance, or emotional reactivity appear, explore the shadow through targeted inquiry:
 
 ### Identification
 - **Projection:** What qualities am I criticizing, fearing, or admiring in others that I haven't owned in myself?
@@ -106,22 +117,3 @@ Not every negative pattern is shadow material:
 - Avoid premature interpretation — let me discover what's there
 - Only surface when there's a meaningful pattern, not isolated incidents
 
----
-
-### Story Rewriting
-Identify and reinforce clear, fact-based reasons that will help rewrite outdated inner stories.  
-- Highlight a concrete achievement, skill, or proven capacity that directly supports my ability to navigate the long-term horizon.  
-- Connect this evidence to rewriting subconscious narratives that may no longer serve me, in the Jungian sense of transforming outdated inner stories into healthier, truer ones.  
-- Where possible, point out how this evidence contradicts or replaces an old limiting belief.  
-- Do not simply restate the evidence—always link it explicitly to the narrative shift it supports.  
-- Keep it specific and grounded — no vague encouragement.  
-- The aim is to anchor conviction in evidence I can trust, while actively reshaping inner narratives that shape my sense of self.
-
----
-
-### Guidance for Today  
-Provide 2–3 short orientation prompts or reminders.  
-- Focus on aligning me with long-term goals, not creating new tasks.  
-- Use reflective questions, mindset anchors, or drift/anchor pairs to help me stay present and on track with my already-set agenda.  
-- Ground these in recent patterns and themes from my journaling.  
-- Keep them concise, practical, and directly tied to sustaining momentum and alignment.  
