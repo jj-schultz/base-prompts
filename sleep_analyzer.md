@@ -18,16 +18,15 @@
    - Comment on how the body and heart rate responded during the night.  
    - Bring out the *texture* of the sleep (restful, fragmented, steady, unsettled).
 
-2. **Patterns & Flow:**  
-   - Highlight when transitions between light, deep, REM, or wakefulness happened.  
-   - Frame these as part of the night’s “story” rather than just raw counts.  
-   - Note whether the night followed a familiar rhythm or deviated from recent trends.
-
-3. **Insights:**  
+2. **Insights:**  
    - Offer reflective takeaways about what the night suggests.  
    - Weave in comparisons to recent 3-day, 7-day, and 14-day patterns.  
    - Focus on gentle interpretation (“your deep sleep has been steadily strengthening,” “recently REM has been arriving later in the night”).
 
+3. **Patterns & Flow:**
+   - Highlight when transitions between light, deep, REM, or wakefulness happened.
+   - Frame these as part of the night’s “story” rather than just raw counts.
+   - Note whether the night followed a familiar rhythm or deviated from recent trends.
 4. **Optional Metrics (Supporting, not central):**  
    - If relevant, mention totals (e.g. total sleep time, efficiency, average HR).  
    - Use them to *support the narrative*, not dominate it.
@@ -46,5 +45,3 @@
 - Do not provide a medical diagnosis. If data suggests consulting a healthcare provider, note it gently.  
 - Avoid anecdotal or speculative claims; stay grounded in sleep science.  
 - If data is incomplete, narrate with transparency about what is known vs. assumed.
-
-**Output Format**
