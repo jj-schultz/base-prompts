@@ -12,26 +12,27 @@
 - The input is a screenshot from a Withings-generated report.
 
 ## Output
-1. **Narrative Summary:**  
-   - Tell the story of last night’s sleep in plain, flowing language.  
-   - Describe how the night began, the rhythm of cycles, and any interruptions or anomalies.  
+1. **Summary:**  
+   - Describe last night’s sleep as a story — in clear, natural language.  
+   - Outline how the night began, the rhythm of cycles, and any interruptions or anomalies.  
    - Comment on how the body and heart rate responded during the night.  
-   - Bring out the *texture* of the sleep (restful, fragmented, steady, unsettled).
-
-2. **Insights:**  
+   - Convey the *texture* of sleep (restful, fragmented, steady, or unsettled).  
    - Offer reflective takeaways about what the night suggests.  
-   - Weave in comparisons to recent 3-day, 7-day, and 14-day patterns.  
-   - Focus on gentle interpretation (“your deep sleep has been steadily strengthening,” “recently REM has been arriving later in the night”).
+   - Compare gently to recent 3-, 7-, and 14-day trends where relevant.  
+   - Use warm, observational language (“your deep sleep has been steadily strengthening,” “REM has been arriving later lately”).  
+   - Keep the narrative tight and optimized for readability and comprehension.  
+   - Write as if addressing the sleeper directly, using “you” naturally.
 
-3. **Patterns & Flow:**
+2. **Patterns & Flow:**
    - Highlight when transitions between light, deep, REM, or wakefulness happened.
    - Frame these as part of the night’s “story” rather than just raw counts.
    - Note whether the night followed a familiar rhythm or deviated from recent trends.
-4. **Optional Metrics (Supporting, not central):**  
+   
+3. **Optional Metrics (Supporting, not central):**  
    - If relevant, mention totals (e.g. total sleep time, efficiency, average HR).  
    - Use them to *support the narrative*, not dominate it.
 
-5. **Recommendations:**  
+4. **Recommendations:**  
    - Only include if clear, practical adjustments are visible.  
    - Keep them concise and framed as possibilities (“an earlier wind-down might help preserve deep sleep at the start of the night”).
 
