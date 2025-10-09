@@ -13,13 +13,11 @@
 
 ## Output
 1. **Summary:**  
-   - Describe last night’s sleep as a story — in clear, natural language.  
    - Outline how the night began, the rhythm of cycles, and any interruptions or anomalies.  
    - Comment on how the body and heart rate responded during the night.  
    - Convey the *texture* of sleep (restful, fragmented, steady, or unsettled).  
    - Offer reflective takeaways about what the night suggests.  
-   - Compare gently to recent 3-, 7-, and 14-day trends where relevant.  
-   - Use warm, observational language (“your deep sleep has been steadily strengthening,” “REM has been arriving later lately”).  
+   - Compare to recent 3-, 7-, and 14-day trends where relevant.  
    - Keep the narrative tight and optimized for readability and comprehension.  
    - Write as if addressing the sleeper directly, using “you” naturally.
 
