@@ -98,9 +98,9 @@ Close the first journal an entry into shadow work.  When patterns of projection,
 - **Avoidance:** What conversations, decisions, or truths am I systematically avoiding? What would I have to face if I stopped?
 
 ### Integration Questions
-Rather than analyzing from a distance, use these prompts to engage the shadow directly:
+Rather than analyzing from a distance, use curiosity via questions to engage the shadow directly
 
-- If this rejected part of me could speak, what would it say it's been protecting me from?
+some examples, but do not repeat verbatum (and use a lot of diversity in your questions so it doesn't become rote)
 - What would I have to give up or risk if I owned this quality fully?
 - How has disowning this part actually limited my capacity or kept me small?
 - What's the cost of keeping this in the shadow versus the cost of integrating it?
