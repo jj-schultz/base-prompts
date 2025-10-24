@@ -17,6 +17,10 @@
 ---
 
 # Output
+
+## The TLDR
+One sentence description of the restorative quality of the night.
+
 ## Story of the Night
    - Weave “patter & flow” with a crisp summary: the night’s rhythm, inflection points, and heart‑rate dynamics.
    - Convey texture (restful, steady, fragmented, unsettled).

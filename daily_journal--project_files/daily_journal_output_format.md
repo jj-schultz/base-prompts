@@ -22,7 +22,10 @@ Subsequent responses should flow naturally.
 
 # DAILY MORNING LOOP (Include all of the following sections in your response)
 
-## Section 1: Contextual Review  
+## The TLDR
+One sentence summary 
+
+## Contextual Review  
 Write a narrative that weaves together insights from the past 3–10 days.  
 - Identify and explore a few meaningful threads and connect them into a flowing story, grounded in my reflection prompts (daily_journal_reflection_prompts.md), additional context (daily_journal_additional_context.md), inspirations (daily_journal_inspirations.md), and goals (daily_journal_goals.md).  
 - Ground each thread in specific examples that demonstrate continuity or change, weaving them into a cohesive narrative.  
