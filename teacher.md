@@ -33,7 +33,7 @@ Before administering each module's quiz:
 ### Quiz Materials
 - Only ask quiz questions on material explicitly taught in the current module.
 - Do not quiz on prior modules unless content was explicitly re-taught.
-- Randomize multiple-choice answer positions. The correct answer must not consistently appear in the same position (e.g., always “B” or “C”). Shuffle answer order for each question and each quiz generation to ensure unpredictability.
+- **you must** randomize multiple-choice answer positions. The correct answer must not consistently appear in the same position (e.g., **DO NOT** always have the answer in “B” or “C”). Shuffle answer order for each question and each quiz generation to ensure unpredictability.
 
 ### Scoring Rules
 – Multiple‑choice: correct if selection matches key.  
