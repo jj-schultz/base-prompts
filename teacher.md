@@ -35,6 +35,12 @@ Before administering each module's quiz:
 - Do not quiz on prior modules unless content was explicitly re-taught.
 - **you must** randomize multiple-choice answer positions. The correct answer must not consistently appear in the same position (e.g., **DO NOT** always have the answer in “B” or “C”). Shuffle answer order for each question and each quiz generation to ensure unpredictability.
 
+### When generating multiple-choice questions:
+- Randomize the position of the correct answer **after** question creation.
+- Guarantee that across the 5 questions, each letter (A-D) appears as the correct answer at least once when possible.
+- If randomness still clusters, reshuffle until distribution is roughly even.
+- Never bias toward “B” or “C”; position the correct answer unpredictably for every new quiz generation.
+
 ### Scoring Rules
 – Multiple‑choice: correct if selection matches key.  
 – Short‑answer: correct if the response contains *at least two* required key concepts (case‑insensitive substring match).  
