@@ -11,7 +11,7 @@ When you are finished updating this `todo.md` file with the summary of changes a
 1. Identify if you are claude or codex.  Rember this value as `agent_service`
 2. Identify the project root directory.  This should be the name of the directory you were started in, or another way to find it is it is the directory two ".."'s above the directory containing this `todo.md` file.  store this value as `project_name`
 3. Identify a single sentence summary of the work you did for the `todo.md` file.  Rember this value as `summary`
-4. Execute the script `./.ai_coding/common/notify_done.sh "${agent_service}" "${project_name}" "${summary}"`
+4. Execute the script `./.ai_coding/ai_coding_common/notify_done.sh "${agent_service}" "${project_name}" "${summary}"`
 
 ---
 
@@ -25,6 +25,7 @@ If the a TODO starts with one of the following keywords, **you must** following 
 - `#REVIEW`: **never** change any other file other than this `todo.md` file.  review the code in the files defined in the text following the `#REVIEW` - do a code review looking for bugs, any potential problems, call out any inconsistencies.  Format the review results for optimal human comprehensionl.  **you must** append the review results to this `todo.md` file
 - `#PLAN`: **never** change any other file other than this `todo.md` file.  Create a step by step plan for implementing whatever is the text following the `#PLAN` keyword
 - `#DOC`: Create new document in `./doc**s`.  Produce the requested documenation in the new document.  use markdown syntax unless otherwise specified
+- a dot-forward-slash (`./`) always refers to the project root directory, ie parent directory of `./ai_coding`
 
 ---
 
