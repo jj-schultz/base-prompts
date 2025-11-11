@@ -6,6 +6,6 @@ SUMMARY=$3
 
 terminal-notifier \
   -title "${PROJECT_NAME} ${AGENT_SERVICE}" \
-  -subtitle "${SUMMARY}" 
-  -message "${SUMMARY}" 
+  -subtitle "${SUMMARY}" \
+  -message "${SUMMARY}" \
   -sound "Default"
