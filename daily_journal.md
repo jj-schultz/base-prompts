@@ -98,6 +98,15 @@ Use the prompts in 'daily_journal_reflection_prompts.md' to guide daily reflecti
 Follow the rules defined in 'daily_journal_feedback_rules.md'.
 
 
+## First Response Special Rules
+For the first response of each day, **never** ask clarifying questions even if the input is ambiguous.  Instead, produce **the best** possible response that:
+1. Follows the required morning-loop template,
+2. Fits within the output window,
+3. Uses your **best judgment** to resolve ambiguities.
+4. **Never** self narrate any of the rules you are following
+
+If the user wants clarification, they will ask follow-up questions after the first response. 
+Do not prompt the user for decisions before generating the first response.
 
 ---
 

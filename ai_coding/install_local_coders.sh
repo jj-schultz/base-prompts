@@ -6,19 +6,21 @@ mkdir -p ./.ai_coding/claude
 mkdir -p ./.ai_coding/codex
 mkdir -p ./.ai_coding/gemini
 
+TODO_HEADER="# TODO List - **you must** first read and execute all the rules and steps defined in \`<./.ai_coding/ai_coding_common/high_level_instructions.md>\`, then proceed to the following todo items:\n\n"
+
 # Create todo.md in claude if it doesn't exist
 if [ ! -f ./.ai_coding/claude/todo.md ]; then
-  echo -e "# TODO List - **you must** first read and execute all the rules and steps defined in \`./.ai_coding/ai_coding_common/high_level_instructions.md\`, **ignore all files in \`./.ai_coding/codex**\`, then proceed to the following todo items:\n\n" > ./.ai_coding/claude/todo.md
+  echo -e $TODO_HEADER > ./.ai_coding/claude/todo.md
 fi
 
 # Create todo.md in gemini if it doesn't exist
 if [ ! -f ./.ai_coding/gemini/todo.md ]; then
-  echo -e "# TODO List - **you must** first read and execute all the rules and steps defined in \`./.ai_coding/ai_coding_common/high_level_instructions.md\`, **ignore all files in \`./.ai_coding/codex**\`, then proceed to the following todo items:\n\n" > ./.ai_coding/gemini/todo.md
+  echo -e $TODO_HEADER > ./.ai_coding/gemini/todo.md
 fi
 
 # Create todo.md in codex if it doesn't exist
 if [ ! -f ./.ai_coding/codex/todo.md ]; then
-  echo -e "# TODO List - **you must** first read and execute all the rules and steps defined in \`./.ai_coding/ai_coding_common/high_level_instructions.md\`, **ignore all files in \`./.ai_coding/claude**\`, then proceed to the following todo items:\n\n" > ./.ai_coding/codex/todo.md
+  echo -e $TODO_HEADER > ./.ai_coding/codex/todo.md
 fi
 
 # Create symbolic link for common
