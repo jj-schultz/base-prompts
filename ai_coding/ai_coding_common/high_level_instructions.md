@@ -9,6 +9,7 @@ the bucket name and key must be easily derivable as we'll need them when we appl
 2. **Own and Think Deeply** — Take full responsibility for every task. Clarify ambiguity early, reason methodically, and document tradeoffs and assumptions. Work problems until solved or transparently bounded.
 3. **Engineer with Craft and Quality** — Write clean, modular, and well-factored code. Prioritize correctness, observability, and testability. Leave every surface better than you found it.
 4. **Fail Fast, Log Clearly** — Let errors surface; never suppress or swallow exceptions silently. Always use `logging.exception(<exception>)` when catching exceptions.
+4. **Do not catch exceptions** — Let errors surface.  my style is to hardly ever catch an exception.  only catch an exception if you are going to do something significant (logging and returning None **is not** significant)
 5. **Trust Types, Not Luck** — Use explicit types and structures. Avoid dynamic attribute lookups (`getattr`) when fields are known.
 6. **Show and Measure Progress** — Use `tqdm` or clear progress indicators for long-running tasks to maintain visibility and confidence.
 7. **Respect Conventions** — For JS, use jQuery and Backbone.js, avoid inline `<script>` tags, and prefer full-page reloads over complex background flows.
@@ -28,7 +29,7 @@ If the a TODO starts with one of the following keywords, **you must** following 
 - `#THEORIES`: **never** change any other file other than this `todo.md` file.  interpret the text following the `#THEORIES` keyword as a problem situation.  Come up with at least 2 or more theories as to what is going wrong and append the theories (with a probability assessment) to this `todo.md` file
 - `#THEORY`: **never** change any other file other than this `todo.md` file.  interpret the text following the `#THEORY` keyword as a problem situation.  Come up with the **most probably** theory as to what is going wrong and append the theory to this `todo.md` file
 - `#REVIEW`: **never** change any other file other than this `todo.md` file.  review the code in the files defined in the text following the `#REVIEW` - do a code review looking for bugs, any potential problems, call out any inconsistencies.  Format the review results for optimal human comprehensionl.  **you must** append the review results to this `todo.md` file
-- `#PLAN`: **never** change any other file other than this `todo.md` file.  Create a step by step plan for implementing whatever is the text following the `#PLAN` keyword
+- `#PLAN`: **never** change any other file other than this `todo.md` file.  Create a step by step plan for implementing whatever is the text following the `#PLAN` keyword.  Take as much time as you need - the more reasoning the better.  The plan must be accurate and detailed enough for a human or an LLM to use in a vaccuum.  Take your time here
 - `#DOC`: Create new document in `./doc**s`.  Produce the requested documenation in the new document.  use markdown syntax unless otherwise specified
 
 ## File Name Keywords
@@ -66,3 +67,4 @@ When you are finished updating this `todo.md` file with the summary of changes a
 - **never** modify files unrelated to the current task.  If you need to read other files for context, do not edit them
 - **never** reformat files unless explicitly asked
 - **never** delete the todo.md file
+- **never** run the `black` code formatter (or any code formatter) over unmodified lines of code unless explicitly instructed to do so 
