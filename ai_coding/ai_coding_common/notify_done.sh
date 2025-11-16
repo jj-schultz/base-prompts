@@ -8,4 +8,5 @@ terminal-notifier \
   -title "${PROJECT_NAME} ${AGENT_SERVICE}" \
   -subtitle "${SUMMARY}" \
   -message "${SUMMARY}" \
+  -ignoreDnD \
   -sound "Default"

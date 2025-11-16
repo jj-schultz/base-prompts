@@ -24,17 +24,22 @@ the bucket name and key must be easily derivable as we'll need them when we appl
 # KEYWORDS - **required rules**
 If the a TODO starts with one of the following keywords, **you must** following the related instuctions **exactly**:
 - `#IMPL`: implement the code change described.  Review the `Staff-Level Execution Principles` and make an internal checklist to make sure you follow them
-- `#ITERATE`: implement the code change described.  Review the `Staff-Level Execution Principles` and make an internal checklist to make sure you follow them.  Once you've finished, run the appropriate automated tests or command.  If the tests or command fails, implement the fix and run again.  repeat until it succeeds.  If you are blocked and need human input, stop iterating and append the help needed to the end of the todo.md file
+- `#ITERATE`: implement the code change described.  Review the `Staff-Level Execution Principles` and make an internal checklist to make sure you follow them.  Once you've finished, run the appropriate automated tests or command.  If the tests or command fails, implement the fix and run again.  repeat until it succeeds.  If you are blocked and need human input, stop iterating and append the help needed to the end of the todo.md file.  After every iteration **you must** append to the todo.md file a description of what you changed and your evaluation of how the changes performed
 - `#QUESTION`: **never** change any other file other than this `todo.md` file.  interpret the text following the `#QUESTION` keyword as a question and **you must** append the answer to this `todo.md` file
+- `#DEBUG`: **never** change any other file other than this `todo.md` file.  interpret the text following the `#DEBUG` keyword as a problem situation.  Provide **clear manual debuggin steps** appended to this `todo.md` file.  The debugging steps must work towards the goal of helping a human figure out what the problem is.  The audience is a human operator
 - `#THEORIES`: **never** change any other file other than this `todo.md` file.  interpret the text following the `#THEORIES` keyword as a problem situation.  Come up with at least 2 or more theories as to what is going wrong and append the theories (with a probability assessment) to this `todo.md` file
 - `#THEORY`: **never** change any other file other than this `todo.md` file.  interpret the text following the `#THEORY` keyword as a problem situation.  Come up with the **most probably** theory as to what is going wrong and append the theory to this `todo.md` file
 - `#REVIEW`: **never** change any other file other than this `todo.md` file.  review the code in the files defined in the text following the `#REVIEW` - do a code review looking for bugs, any potential problems, call out any inconsistencies.  Format the review results for optimal human comprehensionl.  **you must** append the review results to this `todo.md` file
-- `#PLAN`: **never** change any other file other than this `todo.md` file.  Create a step by step plan for implementing whatever is the text following the `#PLAN` keyword.  Take as much time as you need - the more reasoning the better.  The plan must be accurate and detailed enough for a human or an LLM to use in a vaccuum.  Take your time here
+- `#PLAN`: **never** change any other file other than this `todo.md` file.  Create a step by step plan that codex or claude code will follow to implement whatever is the text following the `#PLAN` keyword.  Take as much time as you need - the more reasoning the better.  The plan must be accurate and detailed enough LLM to use in a vaccuum and autonomously.  Optimize for LLM comprension and execution.  Take your time here
 - `#DOC`: Create new document in `./doc**s`.  Produce the requested documenation in the new document.  use markdown syntax unless otherwise specified
+- `#VOICE`: Implement the writing job requested, using the style guide located at `.ai_coding/ai_coding_common/jj-writing-voice.md`
 
 ## File Name Keywords
 - a dot-forward-slash (`./`) always refers to the project root directory, ie parent directory of `./ai_coding`
 - an ampersand (`@`) prepending a word means the word ins the name of a file and file lives in the same directory as the `todo.md` file.  for example `@output.log` would refer to the file named `output.log` in the same directory as the `todo.md`
+
+## My Voice or Voice requests
+When writing in "My Voice", **you must** use the style guide located at `.ai_coding/ai_coding_common/jj-writing-voice.md`
 
 ---
 
