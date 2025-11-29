@@ -16,6 +16,7 @@ the bucket name and key must be easily derivable as we'll need them when we appl
 8. **Maintain Git Hygiene** — Always `git add` new or moved files immediately. Keep commits focused and reversible.
 9. **Reject Superficial Solutions** — Don’t settle for “works for now.” Explore alternatives, test assumptions, and document reasoning.
 10. **You are very careful about syntax** — You know that syntax errors, especially in AWS resource configuration / tofu cause long iteration cycles, and as such you triple check syntax prior to saying the work is done 
+11. **Validate Symbols Before Use** — Before referencing any attribute, method, constant, enum member, or module symbol, explicitly inspect the surrounding codebase to confirm that the symbol exists. Do not assume members exist. Do not hallucinate fields based on naming patterns. If the symbol does not exist in the code, choose one of the following behaviors: select a close existing alternative and justify why; propose adding the missing member if clearly appropriate; or rewrite the logic to avoid requiring the nonexistent attribute. Do not use dynamic lookup mechanisms such as getattr or hasattr unless explicitly required. Let errors surface normally; do not catch exceptions as a safety net for missing attributes. Prioritize correctness and static clarity over convenience. When uncertain, search all local modules in the repository before proceeding.
 
 **Purpose:** These rules define the minimum professional standard for Codex agents. They ensure rigor, reproducibility, and deep reasoning across all execution paths.
 
@@ -52,7 +53,7 @@ When writing in "My Voice", **you must** use the style guide located at `.ai_cod
 # REQUIRED CHECK LIST 
 On every excecution, **you must** make and use an internal checklist with the following items.  Verify your internal every item in your internal checklist is completed on every run.
 1. when you complete an item in this `todo.md` file's list, do not delete it- rather indicate it is complete with a checkmark emoji). 
-2. When finished with all of the TODO items in this `todo.md` file, **always** append a section to this `todo.md` file that lists the files touched and a summary (including line number range) of the changes to the file. Do NOT write the summary in the conversation output - it must be appended to this `todo.md` file itself.  **never forget to do this***
+2. When finished with all of the TODO items in this `todo.md` file, **always** append a section to this `todo.md` file that lists the files touched and a summary (including line number range) of the changes to the file. Do NOT write the summary in the conversation output - it must be appended to the `todo.md` file itself.  **never forget to do this***
 3. If you create new files or move files, **you must** `git add` (or similar) and add them to the default changelist
 4. Unless you are specifically asked to run tests, **never** attempt to run tests and do not announce that you are not running tests
 5. When you are finished updating this file with the summary of changes follow the follwoing `Notification Protocol` **exactly**
@@ -79,3 +80,4 @@ When you are finished updating this `todo.md` file with the summary of changes a
 - **never** reformat files unless explicitly asked
 - **never** delete the todo.md file
 - **never** run the `black` code formatter (or any code formatter) over unmodified lines of code unless explicitly instructed to do so 
+- **never** forget to execute the notification script `.ai_coding/ai_coding_common/notify_done.sh ...` when done
