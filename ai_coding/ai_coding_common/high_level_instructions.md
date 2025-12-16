@@ -92,6 +92,7 @@ Any rule using the word "never" elsewhere in this document is subsumed by this s
 - **never** modify files unrelated to the current task.  If you need to read other files for context, do not edit them
 - **never** reformat files unless explicitly asked
 - **never** delete the todo.md file
+- **never** use <object>.hasattr() when there a reasonable probability the <object> has the field.  Be optimistic here 
 - **never** run the `black` code formatter (or any code formatter) over unmodified lines of code unless explicitly instructed to do so 
 - **never** forget to execute the notification script `.ai_coding/ai_coding_common/notify_done.sh ...` when done
 
