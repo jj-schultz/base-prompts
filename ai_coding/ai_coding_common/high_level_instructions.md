@@ -74,6 +74,18 @@ value = data["key"]  # KeyError is correct and desired
 
 **Purpose:** These rules define the minimum professional standard for coding agents. They ensure rigor, reproducibility, and deep reasoning across all execution paths.
 
+## Iteration Output Rules
+
+When iterating on code, plans, documents, or specifications:
+
+- Output only the current best version.
+- Do not describe prior iterations, changes made, diffs, or evolution.
+- Do not narrate reasoning, tradeoffs, or decision history unless explicitly requested.
+- Treat each iteration as a full replacement of the previous output.
+- Silently incorporate relevant context from earlier iterations into the final result.
+
+This rule applies globally unless the user explicitly requests history, rationale, comparison, or a diff.
+
 # Instruction Precedence
 In the event of conflicting instructions, the following precedence order applies (highest first):
 1. Forbidden Actions
@@ -124,6 +136,15 @@ For non-mutating keywords, the required "files touched" summary must explicitly 
 If the keyword is one of [`$IMPL`, `$IMPL-ERR`, `$GAP-CLOSE`, `$REFACTOR`, `$ITERATE`]
 - Before you implement any code changes, review the `Staff-Level Execution Principles` above and make an internal checklist to make sure you follow them
 - Before you implement any code changes, **you must** research the existing codebase to see what methods might be reusable (small backwards compatible modifications are ok) - look to reuse as much existing code as possible
+- **Code Organization Check** - Before adding any new function or method:
+  1. **Identify if the function is general-purpose**: Does it perform a utility operation (date formatting, string manipulation, HTML escaping, validation, etc.) that could be useful beyond the current module?
+  2. **Check common/utility modules first**: Search for similar functionality in files like `*.js`, `common.py`, utility modules, or shared libraries. If found, use the existing function.
+  3. **Place general-purpose code in common modules**: If the function is general-purpose and doesn't exist, add it to the appropriate common/utility module (e.g., `*-common.js` for JavaScript utilities, shared Python modules for backend). Do NOT add general-purpose functions as methods in specific classes or modules.
+  4. **Keep module-specific code focused**: Only add methods/functions to a specific module if they are tightly coupled to that module's domain logic and unlikely to be reused elsewhere.
+  5. **Example violations to avoid**:
+     - Adding `formatDate()` as a method in a Backbone view instead of in `erie-common.js`
+     - Adding `escapeHtml()` in a specific component when it already exists in utilities
+     - Adding generic validation functions in a domain-specific class
 - Take as much time as you need - the more reasoning the better.  
 
 ## KEYWORDS: File Name Keywords
@@ -154,6 +175,7 @@ Any rule using the word "never" elsewhere in this document is subsumed by this s
 - **never** forget to execute the notification script `.ai_coding/ai_coding_common/notify_done.sh ...` when done
 - **never** expose sequential numeric ids in a URL.  Strongly perfer UUID4 for IDs
 - **never** edit files in the python virtual env or npm packages.  only edit the source code for the project
+- **never** narrate iteration history, change logs, diffs, rationales, or evolution of code, plans, or documents unless the user explicitly requests history, comparison, rationale, or a diff. Default behavior is final-state output only.
 
 # Required Notification Protocol
 When you are finished updating this `todo.md` file with the summary of changes and performing any/all of your validations
