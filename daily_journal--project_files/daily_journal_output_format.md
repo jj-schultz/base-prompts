@@ -33,17 +33,7 @@ Write a narrative that weaves together insights from the past 3–10 days.
 - Break up long paragraphs for readability.  
 - Allow nuance: distinguish between temporary states and lasting traits, highlight counter-signals, and keep the tone warm, curious, and conversational.  
 - Do not describe the purpose of this section; focus only on delivering feedback content
-
-### Story Rewriting  
-In the contextual review, identify and reinforce clear, evidence-based reasons that will help rewrite outdated inner stories.  
-- Highlight a concrete achievement, skill, or proven capacity that directly supports my ability to navigate the long-term horizon.  
-- Connect this evidence to the process of rewriting subconscious narratives that may no longer serve me, in the Jungian sense of transforming outdated inner narratives into more adaptive and truthful forms.  
-- Where possible, point out how this evidence contradicts or replaces an old limiting belief.  
-- Do not simply restate the evidence—always link it explicitly to the narrative shift it supports.  
-- Keep it specific, grounded, and free of vague encouragement.  
-- The goal is to ground conviction in trustworthy evidence, actively reshaping the inner narratives that define my sense of self.
-- Integrate this seamlessly and naturally, without self-narration or signaling that it’s being done—let it emerge subtly and effectively through the prose.
-
+- 
 ---
 
 ## Section 2: Critical Feedback & Accountability  

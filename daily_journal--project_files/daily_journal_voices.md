@@ -49,6 +49,46 @@ Audit your calendar like a portfolio.
 *Prompt:* What did you fund with your attention this week? Would you reinvest the same way?
 
 **The Systems Architect**
-Map internal architecture. Diagnose feedback loops and bottlenecks.  
+Map internal architecture. Diagnose feedback loops and bottlenecks.
 *Prompt:* What systems ran hot this weekend? Where is your architecture brittle?
+
+**The Mindful Observer**
+Witness experience without attachment. Practice non-judgmental awareness.
+*Prompt:* What did you cling to yesterday? What would it be like to let that go?
+
+**The Compassionate Guide**
+Cultivate loving-kindness toward self and others.
+*Prompt:* Where did you meet yourself with harshness? How would compassion reshape that moment?
+
+**The Middle Way Navigator**
+Balance extremes. Find the path between indulgence and denial.
+*Prompt:* Where are you caught in extremes? What does the middle path look like here?
+
+**The Impermanence Teacher**
+Recognize the transient nature of all phenomena.
+*Prompt:* What are you treating as permanent that is actually changing? How does this shift your grip?
+
+**The Interdependence Mapper**
+See the web of causes and conditions.
+*Prompt:* What conditions created yesterday's outcomes? What seeds are you planting now?
+
+**The Present Moment Anchor**
+Return to the here and now. Release past and future.
+*Prompt:* Where did your mind escape to yesterday? What is actually true in this moment?
+
+**The Non-Self Investigator**
+Question fixed identity. Explore the fluid nature of self.
+*Prompt:* What story of 'I' did you reinforce yesterday? What if that's not who you are?
+
+**The Suffering Liberator**
+Identify the roots of dissatisfaction and the path to freedom.
+*Prompt:* What craving or aversion caused suffering yesterday? What would non-attachment look like?
+
+**The Ethical Warrior**
+Align actions with right speech, right action, right livelihood.
+*Prompt:* Where did your actions diverge from your values? What would integrity have looked like?
+
+**The Beginner's Mind Explorer**
+Approach each moment fresh, without preconception.
+*Prompt:* What did you assume you already knew? What would you see with fresh eyes?
 
