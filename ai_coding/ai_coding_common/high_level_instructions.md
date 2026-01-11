@@ -29,9 +29,9 @@ You are a Staff-level engineer, expert in writing python, javascript, bash scrip
 - When multiple implementations are possible, choose the one with the best time complexity that does not meaningfully harm clarity.
 - If a higher-complexity implementation is chosen for clarity or constraints, explicitly document the tradeoff.
 9. **Show and Measure Progress** — Use `tqdm` or clear progress indicators for long-running tasks to maintain visibility and confidence.
-10. **Respect Conventions** — For JS, use jQuery and Backbone.js, avoid inline `<script>` tags, and prefer full-page reloads over complex background flows.
+10. **Respect Conventions** — For JS frontents, always build with React
 11. **Maintain Git Hygiene** — Always `git add` new or moved files immediately. Keep commits focused and reversible.
-12. **Reject Superficial Solutions** — Don’t settle for “works for now.” Explore alternatives, test assumptions, and document reasoning.
+12. **Reject Superficial Solutions** — Don't settle for “works for now.” Explore alternatives, test assumptions, and document reasoning.
 13. **Optimize for Algorithmic Soundness**
 - Analyze time and space complexity for non-trivial logic.
 - Prefer O(1), O(log n), or O(n) solutions over O(n^2)+ when feasible.
@@ -123,6 +123,7 @@ If the a TODO starts with one of the following keywords, **you must** following 
 - `$REVIEW`: review the code in the files defined in the text following the `$REVIEW` - do a code review looking for bugs, any potential problems, call out any inconsistencies.  Format the review results for optimal human comprehension
 - `$EVAL`: review the text following the `$EVAL` keyword.  If the text refers to a file, read the file as the text input.  Provide an evaluation of the idea or text.  Be 100% bluntly truthful with no fluff, but don't feel you have to go out of your way to be critical (accuracy, positive or negative, is the **ultimate** objective).  If multiple evaluations for multiple risk appetites make sense, do that  Format the evaluation results for optimal human comprehension.  If you find problems, suggest a realistic solution.  Take your time to give the best possible answer.  What out for cases where you suggest a change, and then on subsequent $EVAL of your suggestion your evaluation is critical of your own initial suggestion (this has been happening and it feels like you are being critical just to be critical.  don't do that)
 - `$PLAN`: Create a step by step plan that codex or claude code will follow to implement whatever is the text following the `$PLAN` keyword.  Before you identify the plan, research the existing codebase to see what methods might be reusable (small backwards compatible modifications are ok) - look to reuse as much existing code as possible.  Take as much time as you need - the more reasoning the better.  The plan must be accurate and detailed enough LLM to use in a vaccuum and autonomously.  Optimize for LLM comprension and execution.  Take your time here
+- `$GAMEPLAN`: Analyze requirements or PRD, understand affected code, and produce an Asana-ready CSV with all work items. See detailed instructions below.
 - `$DOC`: Create new document in `./doc**s`.  Produce the requested documenation in the new document.  use markdown syntax unless otherwise specified
 - `$VOICE`: Implement the writing job requested, using the style guide located at `.ai_coding/ai_coding_common/jj-writing-voice.md`
 
@@ -143,10 +144,116 @@ If the keyword is one of [`$IMPL`, `$IMPL-ERR`, `$GAP-CLOSE`, `$REFACTOR`, `$ITE
   3. **Place general-purpose code in common modules**: If the function is general-purpose and doesn't exist, add it to the appropriate common/utility module (e.g., `*-common.js` for JavaScript utilities, shared Python modules for backend). Do NOT add general-purpose functions as methods in specific classes or modules.
   4. **Keep module-specific code focused**: Only add methods/functions to a specific module if they are tightly coupled to that module's domain logic and unlikely to be reused elsewhere.
   5. **Example violations to avoid**:
-     - Adding `formatDate()` as a method in a Backbone view instead of in `erie-common.js`
      - Adding `escapeHtml()` in a specific component when it already exists in utilities
      - Adding generic validation functions in a domain-specific class
 - Take as much time as you need - the more reasoning the better.  
+
+
+## KEYWORDS: $GAMEPLAN Detailed Instructions
+
+When you encounter the `$GAMEPLAN` keyword, follow this structured approach to create an Asana-ready project plan:
+
+### Step 1: Understand the PRD
+- Read and analyze the complete PRD
+- Identify the core business objectives and success criteria
+- Extract functional and non-functional requirements
+- Note any constraints, dependencies, or assumptions
+- Clarify ambiguities before proceeding
+- **Inventory all work items**: Create an explicit list of every feature, requirement, and deliverable in the PRD
+
+### Step 2: Understand the Affected Code
+- Research the existing codebase to identify:
+  - Files and modules that will be modified
+  - Related components that may be impacted
+  - Existing patterns and architectures to follow
+  - Reusable code that can be leveraged
+- Map out where the new functionality fits into the current system
+- Identify integration points and potential conflicts
+- Review existing tests and documentation
+
+### Step 3: Determine Section Structure
+The PRD structure determines how Sections are organized:
+
+**If the PRD defines EPICs:**
+- Each EPIC becomes an Asana Section
+- Tasks within each EPIC become rows in the CSV under that Section
+- Section names match EPIC names from the PRD
+
+**If the PRD does not define EPICs:**
+- Organize work into logical Phases (e.g., "Phase 1 - Core Infrastructure", "Phase 2 - Feature Implementation")
+- Each Phase becomes an Asana Section
+- Tasks within each Phase become rows in the CSV under that Section
+
+### Step 4: Create Tasks
+For each Section (EPIC or Phase), create tasks that are:
+- Sized for human execution (approximately 0.5-2 days of focused work)
+- Independently completable and reviewable
+- Written in imperative, action-oriented language
+
+Consider including tasks for:
+- Design/architecture decisions
+- Code implementation
+- Unit and integration testing
+- Code review and refinement
+- Documentation updates
+- Deployment preparation
+
+### Step 5: Verification (REQUIRED)
+Before finalizing the CSV, perform a completeness check:
+1. **Cross-reference**: Compare every requirement, feature, and deliverable from the PRD inventory (Step 1) against the generated tasks
+2. **Gap identification**: List any PRD items not covered by at least one task
+3. **Coverage confirmation**: For each gap found, either add missing tasks or document why the item is intentionally excluded
+4. **Traceability**: Each significant PRD requirement should be traceable to one or more tasks
+
+Append a verification summary to the end of `todo.md`:
+```
+## $GAMEPLAN Verification
+- PRD items identified: <count>
+- Tasks generated: <count>
+- Coverage gaps found: <count or "None">
+- Resolution: <brief description if gaps existed>
+```
+
+### CSV Output Requirements
+
+The output is a **CSV file** for direct import into Asana, created in the project root directory unless otherwise specified.
+
+The CSV must include these columns:
+
+| Column | Required | Description |
+|--------|----------|-------------|
+| `Section` | Yes | EPIC name (if PRD has EPICs) or Phase name |
+| `Task Name` | Yes | Short, action-oriented title |
+| `Description` | Yes | What to do and why |
+| `Parent Task` | No | Task name of parent (for subtasks only) |
+| `Dependencies` | No | Upstream task names, comma-separated |
+| `Assignee` | No | Leave blank unless explicitly specified |
+| `Due Date` | No | Leave blank unless explicitly specified |
+| `Notes` | No | Acceptance criteria and extended context |
+
+Each row represents one task or subtask.
+
+### File Naming Convention
+
+`gameplan_<project_or_feature_name>.csv`
+
+Example: `gameplan_user_authentication.csv`
+
+### Out-of-Scope Handling
+- Explicit non-goals and exclusions must be in a final Section named: `Out of Scope / Non-Goals`
+- Tasks in this Section should clearly describe what is intentionally excluded
+
+### Planning Rules
+- Optimize for clarity, sequencing, and human ownership
+- Avoid LLM-oriented instructions or meta commentary
+- Prefer fewer, well-scoped tasks over many tiny steps
+- Explicitly call out reuse of existing code or systems within task descriptions
+- Assume the plan will be executed and tracked by humans in Asana
+
+### Mandatory Output Rules
+- Do NOT append the gameplan to `todo.md`
+- Do NOT narrate the plan in the chat output
+- The CSV file is the authoritative output
 
 ## KEYWORDS: File Name Keywords
 - a dot-forward-slash (`./`) always refers to the project root directory, ie parent directory of `./ai_coding`
