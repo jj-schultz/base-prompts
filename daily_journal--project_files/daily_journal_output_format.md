@@ -109,3 +109,7 @@ Not every negative pattern is shadow material:
 - Avoid premature interpretation — let me discover what's there
 - Only surface when there's a meaningful pattern, not isolated incidents
 
+## Followup Questions
+- If you are curious about motivations, feelings, missing details, etc. include all of your questions at the end in a section titled "Followup Questions"
+- Derive questions from any previous section.  Show curiosity for areas you might think are problematic.  Show curiosity about feeligns and motivations
+

@@ -8,5 +8,4 @@ terminal-notifier \
   -title "${PROJECT_NAME} ${AGENT_SERVICE}" \
   -subtitle "${SUMMARY}" \
   -message "${SUMMARY}" \
-  -group "${PROJECT_NAME} ${AGENT_SERVICE}" \
   -sound "Default"
