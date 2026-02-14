@@ -86,11 +86,6 @@ $START_INSTRUCTIONS
 2. Execute the following command in $tool:
    \`/$cmd\`
 
-## Documentation
-
-- Keyword documentation: https://github.com/bobyard-real/developer-tools/blob/main/ai_coding/keywords.md
-- Full documentation: https://github.com/bobyard-real/developer-tools/blob/main/ai_coding/README.md
-
 EOF
 
     path="./.ai_coding/$tool/$cmd.md"
