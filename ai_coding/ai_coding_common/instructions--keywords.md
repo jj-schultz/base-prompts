@@ -11,6 +11,7 @@ If the a TODO starts with one of the following keywords, **you must** following 
 - `$REVIEW-FIX`: The text after the `$REVIEW-FIX` keyword is the results of code review.  The code review analyis describes fixes that need to be implemented.  Implement the code fixes described.  When implementing both the fixes , follow all principles in [instructions--coding_principles.md](../../../.ai_coding/ai_coding_common/instructions--coding_principles.md)
 - `$BRANCH_REVIEW`: execute **all** of the instructions in `./.ai_coding/ai_coding_common/[keyword--branch_review.md](keyword--branch_review.md)`
 - `$PR_REVIEW`: execute **all** of the instructions in `./.ai_coding/ai_coding_common/[keyword--pr_review.md](keyword--pr_review.md)`
+- `$ONE_PAGER`: execute **all** of the instructions in `./.ai_coding/ai_coding_common/[keyword-one_pager.md](keyword-one_pager.md)`
 - `$PROD_MERGE_REVIEW`: execute **all** of the instructions in `./.ai_coding/ai_coding_common/[keyword--product_merge_review.md](keyword--product_merge_review.md)`
 - `$TASKS`: execute **all** of the instructions in `./.ai_coding/ai_coding_common/[keyword--task_breakdown.md](keyword--task_breakdown.md)`
 - `$GAMEPLAN`: execute **all** of the instructions in `./.ai_coding/ai_coding_common/[keyword--branch_review.md](keyword--branch_review.md)`

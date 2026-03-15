@@ -1,0 +1,21 @@
+<idea-plugin>
+  <id>com.bobyard.aicoding.todo-skills</id>
+  <name>AI Coding Todo Skills</name>
+  <vendor>Bobyard</vendor>
+
+  <description><![CDATA[
+  Autocompletes AI coding skill commands in todo markdown files from the project's canonical .ai_coding instructions.
+  ]]></description>
+
+  <idea-version since-build="243"/>
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.modules.python</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <completion.contributor
+        language="any"
+        implementationClass="com.bobyard.aicoding.plugin.completion.TodoSkillCompletionContributor"/>
+    <typedHandler implementation="com.bobyard.aicoding.plugin.completion.TodoSkillTypedHandler"/>
+    <gotoDeclarationHandler implementation="com.bobyard.aicoding.plugin.navigation.TodoSkillGotoDeclarationHandler"/>
+  </extensions>
+</idea-plugin>

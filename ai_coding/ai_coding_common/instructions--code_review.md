@@ -4,6 +4,10 @@ Evaluate every changed line against these criteria. Flag noteable violations.
 Don't be overly pedantic just to have review feedback  
 - Use your best judgement, but it's totally fine to say "looks good" if that's the case
 
+# CHECKLIST (Required)
+
+Use the follow items as check list internally and do not mark your work as complete until you've internall verified against this checklist
+
 ## 0. Validate code against our coding principles
 [instructions--coding_principles.md](instructions--coding_principles.md)
 
@@ -12,7 +16,7 @@ Don't be overly pedantic just to have review feedback
 - Check null/undefined handling where data flows from external sources
 - Confirm state mutations are intentional and complete
 - Validate error paths propagate correctly (no swallowed exceptions)
-- Ensure new code does not break existing functionality
+- Ensure new code does not break existing functionality.  **THERE MUST BE NO REGRESSIONS INTRODUCED WITH THESE CHANGES**  This is of **UTMOST IMPORTANCE**
 
 ## 2. Codebase Consistency
 - Match existing naming conventions (variables, functions, files)
