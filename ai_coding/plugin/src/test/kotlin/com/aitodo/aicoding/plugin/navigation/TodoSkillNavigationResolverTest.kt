@@ -1,4 +1,4 @@
-package com.bobyard.aicoding.plugin.navigation
+package com.aitodo.aicoding.plugin.navigation
 
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.io.TempDir

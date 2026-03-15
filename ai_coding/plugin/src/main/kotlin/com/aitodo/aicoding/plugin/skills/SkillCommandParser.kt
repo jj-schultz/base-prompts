@@ -1,4 +1,4 @@
-package com.bobyard.aicoding.plugin.skills
+package com.aitodo.aicoding.plugin.skills
 
 object SkillCommandParser {
     private val fileBackedHeadingPattern = Regex("^##\\s+File-backed skills\\s*$")

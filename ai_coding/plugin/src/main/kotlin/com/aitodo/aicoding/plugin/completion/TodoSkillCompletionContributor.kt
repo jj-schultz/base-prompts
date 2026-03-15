@@ -1,6 +1,6 @@
-package com.bobyard.aicoding.plugin.completion
+package com.aitodo.aicoding.plugin.completion
 
-import com.bobyard.aicoding.plugin.skills.SkillCommandLoader
+import com.aitodo.aicoding.plugin.skills.SkillCommandLoader
 import com.intellij.codeInsight.AutoPopupController
 import com.intellij.codeInsight.completion.CompletionContributor
 import com.intellij.codeInsight.completion.CompletionParameters

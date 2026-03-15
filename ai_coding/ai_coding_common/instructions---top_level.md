@@ -48,6 +48,7 @@ If direct script execution is not possible, output the exact command that would 
 
 
 # Spec, Architecture and UI Specification Compliance
+- If the `goal.md` exists in the same directory as the todo file, this file represents the goal of the current phrase of work. When understanding test failures or planning what work to do or if you have questions about what's the higher level goal, reference this file.  All work you do must be in support of this goal
 - If the file `<project_root>/docs/spec.md` exists, this file represents the canonical specification for the requirements.  Your work must comport to this spec.  Refer to it as you build to make sure your work is aligned with the spec
 - If the director [screenshots](<project_root>/docs/screenshots) exists, this folder contains screenshots of the desired functionality.  All UI work must comport to these screenshots
 - If the file `<project_root>/docs/architecture.md` exists, all code, refactors, and implementations **must** strictly conform to the architecture described in that document. Before planning or writing any code, you must check for the existence of this file and consult its contents. All implementation plans must explicitly align with the defined architecture.

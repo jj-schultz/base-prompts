@@ -1,4 +1,4 @@
-package com.bobyard.aicoding.plugin.skills
+package com.aitodo.aicoding.plugin.skills
 
 import kotlin.test.Test
 import kotlin.test.assertEquals

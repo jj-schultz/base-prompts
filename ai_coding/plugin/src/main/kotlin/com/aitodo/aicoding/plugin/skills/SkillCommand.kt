@@ -1,4 +1,4 @@
-package com.bobyard.aicoding.plugin.skills
+package com.aitodo.aicoding.plugin.skills
 
 import java.nio.file.Path
 

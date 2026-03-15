@@ -1,7 +1,7 @@
-package com.bobyard.aicoding.plugin.navigation
+package com.aitodo.aicoding.plugin.navigation
 
-import com.bobyard.aicoding.plugin.completion.TodoCommandTokenFinder
-import com.bobyard.aicoding.plugin.completion.TodoFileMatcher
+import com.aitodo.aicoding.plugin.completion.TodoCommandTokenFinder
+import com.aitodo.aicoding.plugin.completion.TodoFileMatcher
 import com.intellij.codeInsight.navigation.actions.GotoDeclarationHandler
 import com.intellij.openapi.editor.Editor
 import com.intellij.openapi.project.DumbAware

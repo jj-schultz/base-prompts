@@ -11,11 +11,23 @@ if ! command -v brew >/dev/null 2>&1; then
   exit 1
 fi
 
-if ! command -v java >/dev/null 2>&1; then
-  brew install openjdk@21
+if ! brew list --versions openjdk@21 >/dev/null 2>&1; then
+  HOMEBREW_NO_INSTALL_CLEANUP=1 brew install openjdk@21
 fi
 
 JAVA_HOME="$(/usr/libexec/java_home -v 21 2>/dev/null || true)"
+
+if [ -n "$JAVA_HOME" ]; then
+  if [ ! -x "$JAVA_HOME/bin/java" ]; then
+    JAVA_HOME=""
+  else
+    java_version_output="$("$JAVA_HOME/bin/java" -version 2>&1 || true)"
+    if [[ "$java_version_output" != *21.* ]]; then
+      JAVA_HOME=""
+    fi
+  fi
+fi
+
 if [ -z "$JAVA_HOME" ]; then
   JAVA_HOME="$(brew --prefix openjdk@21)/libexec/openjdk.jdk/Contents/Home"
 fi

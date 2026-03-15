@@ -1,5 +1,5 @@
 <idea-plugin>
-  <id>com.bobyard.aicoding.todo-skills</id>
+  <id>com.aitodo.aicoding.todo-skills</id>
   <name>AI Coding Todo Skills</name>
   <vendor>Bobyard</vendor>
 
@@ -14,8 +14,8 @@
   <extensions defaultExtensionNs="com.intellij">
     <completion.contributor
         language="any"
-        implementationClass="com.bobyard.aicoding.plugin.completion.TodoSkillCompletionContributor"/>
-    <typedHandler implementation="com.bobyard.aicoding.plugin.completion.TodoSkillTypedHandler"/>
-    <gotoDeclarationHandler implementation="com.bobyard.aicoding.plugin.navigation.TodoSkillGotoDeclarationHandler"/>
+        implementationClass="com.aitodo.aicoding.plugin.completion.TodoSkillCompletionContributor"/>
+    <typedHandler implementation="com.aitodo.aicoding.plugin.completion.TodoSkillTypedHandler"/>
+    <gotoDeclarationHandler implementation="com.aitodo.aicoding.plugin.navigation.TodoSkillGotoDeclarationHandler"/>
   </extensions>
 </idea-plugin>

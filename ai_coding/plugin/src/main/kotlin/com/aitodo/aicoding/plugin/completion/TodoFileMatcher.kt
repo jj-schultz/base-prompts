@@ -1,4 +1,4 @@
-package com.bobyard.aicoding.plugin.completion
+package com.aitodo.aicoding.plugin.completion
 
 object TodoFileMatcher {
     private val todoMarkdownPattern = Regex("^todo.*\\.md$")

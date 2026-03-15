@@ -1,4 +1,6 @@
-The text after the `$GAP` skill describes a piece of functionality.  We'll refer to this as the "Desired Functionality" going forward.
+First, identify the desired functionality by one or both of the following methods
+-  If there is text in the todo file after the `$GAP` line use this as the 'desired' functionality
+-  or if a 'goal.md' file exists in the same directory as the todo file, use the contents of this file as the 'desired functionality'
 
 # When performing a gap analysis
 1.  review the curent state of the code and identify if code currently supports the "Desired Functionality".   Any difference between what is currently implemented in the code and the "Desired Functionality" is considered a 'gap'

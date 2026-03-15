@@ -1,4 +1,4 @@
-package com.bobyard.aicoding.plugin.completion
+package com.aitodo.aicoding.plugin.completion
 
 data class TodoCommandToken(
     val startOffset: Int,

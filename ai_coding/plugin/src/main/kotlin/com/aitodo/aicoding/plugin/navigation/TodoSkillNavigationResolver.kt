@@ -1,6 +1,6 @@
-package com.bobyard.aicoding.plugin.navigation
+package com.aitodo.aicoding.plugin.navigation
 
-import com.bobyard.aicoding.plugin.skills.SkillCommandLoader
+import com.aitodo.aicoding.plugin.skills.SkillCommandLoader
 import java.nio.file.Path
 
 class TodoSkillNavigationResolver(

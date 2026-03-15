@@ -1,4 +1,4 @@
-package com.bobyard.aicoding.plugin.skills
+package com.aitodo.aicoding.plugin.skills
 
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.io.TempDir
