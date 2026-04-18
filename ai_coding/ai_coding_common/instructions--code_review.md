@@ -7,6 +7,7 @@ Don't be overly pedantic just to have review feedback
 # CHECKLIST (Required)
 
 Use the follow items as check list internally and do not mark your work as complete until you've internall verified against this checklist
+- the todo file might contain guidance on where to focus.  If it does, constrain your evaluation to area(s) described in the todo, and put extra effort into researching feedback for that area
 
 ## 0. Validate code against our coding principles
 [instructions--coding_principles.md](instructions--coding_principles.md)
@@ -60,6 +61,9 @@ Use the follow items as check list internally and do not mark your work as compl
 - Confirm migrations are reversible when data preservation matters
 - Flag any migration that could cause data loss as **MUST FIX** with explicit validation required before deployment
 
+## 8. Required Context and Goal Alignment
+- if a context.md file exists in same dir as the todo file, is the code change 100% aligned with the context.md instructions?
+- if a goal.md file exists in same dir as the todo file, is the code change 100% aligned with the goal.md instructions?
 # Review Output Format
 
 **you must** append the results of the review to the todo file that contained your original instructions. For each issue found, report:

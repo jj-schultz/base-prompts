@@ -1,4 +1,5 @@
 Create a teaching curriculum for the current uncommitted changes.
+Create the document as a markdown file in `./docs`.
 
 Required steps:
 

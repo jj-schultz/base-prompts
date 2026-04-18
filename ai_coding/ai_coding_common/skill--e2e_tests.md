@@ -153,6 +153,6 @@ Before declaring done:
 1. Verify tests follow patterns from `test_registration_login.py`
 2. Check selectors match actual frontend elements
 3. Ensure timeouts are reasonable
-4. Run `git add` on new test files
+4. Stage new test files in the git repo that owns them. If you are working from a multi-repo parent directory, use `git -C <repo_root> add <repo_relative_path>`
 
 Follow all principles in [instructions--coding_principles.md](instructions--coding_principles.md)

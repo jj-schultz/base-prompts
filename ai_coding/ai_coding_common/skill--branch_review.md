@@ -5,7 +5,7 @@ Required steps:
 # First:  Fetch the code changes
 
 ```bash
-git_diff_branch
+by_git_diff_branch
 ```
 
 # Then: perform the review

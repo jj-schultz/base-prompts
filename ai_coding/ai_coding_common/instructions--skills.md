@@ -15,22 +15,29 @@ All skills in this section point to an instructions file. Execute that file exac
 Base directory for relative instruction paths: `./.ai_coding/ai_coding_common/`
 
 - `$BRANCH_REVIEW`: `skill--branch_review.md`
+- `$BY_COMMAND_WRITER`: `skill--by_command_writer.md`
 - `$COMMIT_MSG`: `skill--commit_msg.md`
 - `$DEBUG`: `skill--debug.md`
+- `$DATA_LOSS_CHECK`: `skill--data_loss_check.md`
 - `$DOC`: `skill--doc.md`
 - `$TEACH`: `skill--teach.md`
 - `$E2E_TESTS`: `skill--e2e_tests.md`
 - `$ESTIMATE`: `skill--estimate.md`
+- `$EXEC`: `skill--exec.md`
 - `$EVAL`: `skill--eval.md`
 - `$FIX`: `skill--fix.md`
 - `$FIX_AND_REVIEW`: `skill--fix_and_review.md`
 - `$FIX_TESTS`: `skill--fix_tests.md`
-- `$GAMEPLAN`: `skill--branch_review.md`
+- `$ALIGN_TESTS`: `skill--align_tests.md`
+- `$GAMEPLAN`: `skill--gameplan.md`
 - `$GAP-CLOSE`: `skill--gap_close.md`
-- `$GAP`: `skill--gap_analysis.md` (analysis only; never implement)
+- `$GAP-IMPL`: `skill--gap_impl.md`
+- `$GAP`: `skill--gap_analysis.md`
 - `$IMPL-ERR`: `skill--impl_err.md`
 - `$IMPL`: `skill--impl.md`
 - `$ITERATE`: `skill--iterate.md`
+- `$LINEAR_UPDATE`: `skill--linear_update.md`
+- `$LINEAR_IMPL`: `skill--linear_impl.md`
 - `$LOOP`: `skill--loop.md`
 - `$MERGE_RESOLVE`: `skill--merge_resolve.md`
 - `$ONESHOT`: `skill--oneshot.md`
@@ -41,22 +48,29 @@ Base directory for relative instruction paths: `./.ai_coding/ai_coding_common/`
 - `$QAPLAN`: `skill--qa_plan.md`
 - `$QUESTION`: `skill--question.md`
 - `$REFACTOR`: `skill--refactor.md`
+- `$REGRESSION_FIX`: `skill--regression_fix.md`
+- `$REGRESSION_FIX_AND_REVIEW`: `skill--regression_fix_and_review.md`
 - `$REGRESSION_CHECK`: `skill--regression_check.md`
 - `$RELEASE_NOTES_PROD`: `skill--release_notes_prod.md`
 - `$RELEASE_NOTES`: `skill--release_notes.md`
 - `$REPRODUCE`: `skill--reproduce.md`
+- `$RESEARCH`: `skill--research.md`
 - `$RETRO`: `skill--retro.md`
 - `$REVIEW-FIX`: `skill--review_fix.md`
 - `$REVIEW`: `skill--code_review.md`
+- `$SKILL_WRITER`: `skill--skill_writer.md`
 - `$SIMPLIFY`: `skill--simplify.md`
+- `$SNIPPET`: `skill--snippet.md`
 - `$STATUS`: `skill--status.md`
+- `$TAKEHOME_REVIEW`: `skill--takehome_review.md`
+- `$TAKEHOME_REVIEW_MLOPS`: `skill--takehome_review_mlops.md`
 - `$TASKS`: `skill--task_breakdown.md`
 - `$TESTS`: `skill--tests.md`
 - `$THEORIES`: `skill--theories.md`
 - `$THEORY`: `skill--theory.md`
 
 ## SKILLS: Allowed Scope
-if the skill is one of [ `$QUESTION`, `$DEBUG`, `$THEORIES`, `$GAP`, `$THEORY`, `$REVIEW`, `$REGRESSION_CHECK`, `$PERFORMANCE_CHECK`, `$EVAL`, `$PLAN`, `$TASKS`, `$STATUS`, `$$BRANCH_REVIEW`, `$PR_REVIEW`, `$COMMIT_MSG`, `$CURRICULUM`, `$SIMPLIFY`],
+if the skill is one of [ `$QUESTION`, `$DEBUG`, `$THEORIES`, `$GAP`, `$THEORY`, `$RESEARCH`, `$REVIEW`, `$REGRESSION_CHECK`, `$DATA_LOSS_CHECK`, `$PERFORMANCE_CHECK`, `$EVAL`, `$PLAN`, `$TASKS`, `$SNIPPET`, `$STATUS`, `$$BRANCH_REVIEW`, `$PR_REVIEW`, `$COMMIT_MSG`, `$CURRICULUM`, `$SIMPLIFY`],
 - **never** change any other file other than this todo file  
 - **never** provide time to implement estimates - time estimates are not of use 
 - **you must** append the response to the todo file unless the user specifically asks for a separate file  
@@ -66,8 +80,12 @@ For non-mutating skills, the required "files touched" summary must explicitly st
 - `$TAKEHOME_REVIEW` is explicitly allowed to create or update the project-root file `./eval_startup_script.sh`.
 - For `$TAKEHOME_REVIEW`, updating `todo.md` plus `eval_startup_script.sh` is the required default behavior unless the user explicitly says otherwise.
 
+### `$ALIGN_TESTS` Mutating Scope Exception
+- `$ALIGN_TESTS` assumes the current application behavior is correct and the tests are stale.
+- Aside from the required `todo.md` and `.ai_coding/history.md` bookkeeping, `$ALIGN_TESTS` may only modify test files or test-support files such as fixtures, mocks, and helper modules that are part of the test suite.
+
 ## SKILLS: Mandatory Pre-Implementation Checks
-If the skill is one of [`$IMPL`, `$IMPL-ERR`, `$FIX_AND_REVIEW`, `$FIX_TESTS`, `$GAP-CLOSE`, `$REFACTOR`, `$ITERATE`, `$E2E_TESTS`, `$MERGE_RESOLVE`, `$ONESHOT`]
+If the skill is one of [`$IMPL`, `$IMPL-ERR`, `$FIX_AND_REVIEW`, `$FIX_TESTS`, `$ALIGN_TESTS`, `$GAP-CLOSE`, `$GAP-IMPL`, `$REFACTOR`, `$ITERATE`, `$LINEAR`, `$LINEAR_IMPL`, `$E2E_TESTS`, `$EXEC`, `$MERGE_RESOLVE`, `$ONESHOT`, `$REGRESSION_FIX`, `$REGRESSION_FIX_AND_REVIEW`]
 - **REQUIRED** Before you implement any code changes, review the [instructions--coding_principles.md](instructions--coding_principles.md)  make an internal checklist to make sure you follow them  
 - Before you implement any code changes, **you must** research the existing codebase to see what methods might be reusable (small backwards compatible modifications are ok) - look to reuse as much existing code as possible
 - **Code Organization Check** - Before adding any new function or method:

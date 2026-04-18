@@ -15,6 +15,7 @@ Look for:
 - duplicated changed-path logic that can reuse an existing helper or be merged into one clearer path
 - code bloat where a smaller expression or existing local pattern is clearer
 - multiple tests or test files covering the same changed behavior; prefer one focused test or one focused test file when that preserves coverage
+- knowing what you've learned about what the actual error or problem is, are there any changes that are now considered unnecessary that can be reverted?
 
 # Hard constraints
 - Only analyze the uncommitted changes.  Do not suggest simplifications for untouched code.

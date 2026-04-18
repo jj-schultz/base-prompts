@@ -1,5 +1,7 @@
 # Product Merge Review - release -> production
 
+the todo file might include an area of focus - if defined, focus your review there
+
 Review **actual code diffs**, not commit descriptions.
 
 This review must be based on reading every diff hunk for every qualifying repo.

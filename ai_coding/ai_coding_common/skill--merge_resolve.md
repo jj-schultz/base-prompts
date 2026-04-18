@@ -34,7 +34,7 @@ Required behavior:
 7. Handle special file types:
    - Binary file conflicts: accept incoming or current version based on branch intent; do not attempt manual merge.
    - Generated files (lock files, build artifacts): regenerate rather than merge when possible.
-   - Files added only by the incoming branch with no conflict markers: stage directly with `git add`.
+   - Files added only by the incoming branch with no conflict markers: stage them from the owning git repo root. In a multi-repo parent workspace, use `git -C <repo_root> add <repo_relative_path>`.
    - Files where both branches created the same path: treat as a conflict and resolve normally.
    - Delete/modify conflicts: if the branch intent is to delete the file, run `git rm <file>`; if the intent is to keep it, resolve and stage.
 
@@ -43,7 +43,7 @@ Required behavior:
    - Run `git diff --check` to catch remaining markers and whitespace errors.
    - Also verify there are no remaining unmerged index entries in every relevant git root, even if file contents no longer contain markers. A clean file with `UU`, `AA`, `DU`, or `UA` status is still unresolved and IDEs like PyCharm will continue to report merge conflicts until it is staged or removed appropriately.
 
-9. Stage resolved files with `git add <file>`. Do NOT commit or continue the merge/rebase automatically 
+9. Stage resolved files from the owning git repo with `git add <file>`. If you are operating from a multi-repo parent workspace, use `git -C <repo_root> add <repo_relative_path>`. Do NOT commit or continue the merge/rebase automatically 
    - This includes files whose content is already resolved but whose git index still shows them as unmerged.
    - For delete/modify or rename/remove outcomes, use `git rm <file>` when the branch intent is deletion, then re-check `git ls-files -u`.
 
