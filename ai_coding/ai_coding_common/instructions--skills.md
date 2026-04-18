@@ -15,7 +15,6 @@ All skills in this section point to an instructions file. Execute that file exac
 Base directory for relative instruction paths: `./.ai_coding/ai_coding_common/`
 
 - `$BRANCH_REVIEW`: `skill--branch_review.md`
-- `$BY_COMMAND_WRITER`: `skill--by_command_writer.md`
 - `$COMMIT_MSG`: `skill--commit_msg.md`
 - `$DEBUG`: `skill--debug.md`
 - `$DATA_LOSS_CHECK`: `skill--data_loss_check.md`
@@ -62,8 +61,6 @@ Base directory for relative instruction paths: `./.ai_coding/ai_coding_common/`
 - `$SIMPLIFY`: `skill--simplify.md`
 - `$SNIPPET`: `skill--snippet.md`
 - `$STATUS`: `skill--status.md`
-- `$TAKEHOME_REVIEW`: `skill--takehome_review.md`
-- `$TAKEHOME_REVIEW_MLOPS`: `skill--takehome_review_mlops.md`
 - `$TASKS`: `skill--task_breakdown.md`
 - `$TESTS`: `skill--tests.md`
 - `$THEORIES`: `skill--theories.md`

@@ -23,7 +23,7 @@ Any rule using the word "never" elsewhere in this document is subsumed by this s
 - **never** delete the todo.md file
 - **never** use <object>.hasattr() when there a reasonable probability the <object> has the field.  Be optimistic here 
 - **never** run the `black` code formatter (or any code formatter) over unmodified lines of code unless explicitly instructed to do so 
-- **never** forget to execute the notification script `./.ai_coding/ai_coding_common/by_notify_done.sh ...` when done
+- **never** forget to execute the notification script `./.ai_coding/ai_coding_common/notify_done.sh ...` when done
 - **never** expose sequential numeric ids in a URL.  Strongly perfer UUID4 for IDs
 - **never** edit files in the python virtual env or npm packages.  only edit the source code for the project
 - **never** narrate iteration history, change logs, diffs, rationales, or evolution of code, plans, or documents unless the user explicitly requests history, comparison, rationale, or a diff. Default behavior is final-state output only.
@@ -59,7 +59,7 @@ When you are finished updating this `todo.md` file with the summary of changes a
 1. Identify if you are claude or codex.  Rember this value as `agent_service`
 2. Identify the project root directory.  This should be the name of the directory you were started in, or another way to find it is it is the directory two ".."'s above the directory containing this `todo.md` file.  store this value as `project_name`
 3. Identify a single sentence summary of the work you did for the `todo.md` file.  Rember this value as `summary`
-4. Execute the script `./.ai_coding/ai_coding_common/by_notify_done.sh "${agent_service}" "${project_name}" "${summary}"`
+4. Execute the script `./.ai_coding/ai_coding_common/notify_done.sh "${agent_service}" "${project_name}" "${summary}"`
 
 If direct script execution is not possible, output the exact command that would have been executed instead.
 

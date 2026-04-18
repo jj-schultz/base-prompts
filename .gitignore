@@ -8,3 +8,7 @@
 /daily_journal--project_files/daily_journal_goals.md
 /daily_journal--project_files/daily_journal_inspirations.md
 /.ai_coding
+/.codex
+/ai_coding/plugin/.gradle
+/ai_coding/plugin/.intellijPlatform
+/ai_coding/plugin/build
