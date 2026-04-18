@@ -1,29 +1,11 @@
-$QUESTION
+$SKILL_WRITER
 
-how do i install this plug in pycharm?
-[plugin](../../ai_coding/plugin)
+modify the $LINEAR_IMPL skill such that it does not create a worktree for each task.  it should do all work in the current code director with the feature branch created as currently defined in the skill
 
-## answer
-
-You don't install the source folder directly in PyCharm. You install the built plugin ZIP.
-
-Fastest path:
-
-1. Open PyCharm `Settings` / `Preferences`.
-2. Go to `Plugins`.
-3. Click the gear icon.
-4. Choose `Install Plugin from Disk...`.
-5. Select `ai_coding/plugin/build/distributions/ai-coding-todo-skills-plugin-0.1.7.zip`.
-6. Restart PyCharm.
-
-Notes:
-
-- The plugin name is `AI Coding Todo Skills`.
-- This repo already has the ZIP built, so you probably do not need to compile anything first.
-- If you do want to rebuild it, run `cd ai_coding/plugin && ./build_plugin.sh`. That script also increments the plugin version before building.
-- Do not point PyCharm at `ai_coding/plugin/` itself. PyCharm wants the built ZIP or JAR artifact.
-- The plugin declares `since-build="243"` and is currently built against PyCharm Professional `2024.3.5`, so PyCharm 2024.3.x is the safest target. Older versions are unlikely to load it.
+the issue I'm having is the skill is creating a worktree for each ticket in the linear project when I tell it to do a whole project
 
 ## files touched
 
-- `.ai_coding/todo/todo.md` - lines 6-29: appended the PyCharm install answer, rebuild note, compatibility note, and this file summary. No other files were modified.
+- `.ai_coding/ai_coding_common/skill--linear_impl.md` - lines 5-50: rewrote `$LINEAR_IMPL` to choose one run branch in the current code directory, keep multi-issue work on that same checkout, and block cross-repo work instead of creating worktrees or extra checkouts.
+- `.ai_coding/history.md` - lines 1-6: prepended the required run summary and next-step note for this `$SKILL_WRITER` run.
+- `.ai_coding/todo/todo.md` - lines 7-11: appended this required files-touched summary.

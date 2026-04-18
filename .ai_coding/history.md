@@ -1,3 +1,9 @@
+# 2026-04-18 15:43:04
+$SKILL_WRITER updated `skill--linear_impl.md` so `$LINEAR_IMPL` stays in the current code directory on one run branch and blocks cross-repo work instead of creating per-issue worktrees.
+
+Next: Review the revised `$LINEAR_IMPL` wording against a multi-issue project todo and commit if it matches the intended execution flow.
+
+
 # 2026-03-29 10:08:09
 $IMPL strengthened `chatgpt_personalization.md` with hard validation/debugging rules and kept it at 1480 chars.
 
